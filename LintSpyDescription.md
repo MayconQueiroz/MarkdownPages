@@ -8,10 +8,6 @@ Versão | Descrição
 1.0.0  | Versão inicial
 1.0.1  | Otimização de busca de prefixos
 
-# Requisitos
-
-Visual Studio 2017 ou mais recente
-
 # Resumo
 
 
