@@ -15,7 +15,7 @@ Visual Studio 2017 ou mais recente
 # Resumo
 
 
-O LintSpy visa padronizar nomenclatura e documentação de códigos no momento da programação, sublinhando códigos em desacordo, exibindo na barra de rolagem a localização do ocorrido e sugerindo adoção das melhores práticas de nomenclatura e documentação. Também é possível visualizar todos as ocorrências através da lista de warnings do Visual Studio.
+O LintSpy visa padronizar nomenclatura e documentação de códigos no momento da programação, sublinhando códigos em desacordo, exibindo na barra de rolagem a localização do ocorrido e sugerindo adoção das regras abaixo descritas. Também é possível visualizar todos as ocorrências através da lista de warnings do Visual Studio.
 
 Desenvolvida pela equipe de TI da Coopavel (Cooperativa Agroindustrial de Cascavel/PR)
 
