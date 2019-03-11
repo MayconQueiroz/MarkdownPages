@@ -17,13 +17,13 @@ Desenvolvida pela equipe de TI da Coopavel (Cooperativa Agroindustrial de Cascav
 
 Veja abaixo um exemplo do LintSpy em funcionamento:
 
-![Infelizmente alguém tá tirando a minha imagem do ar. Me manda um email cobrando: informatica@coopavel.com.br](https://1.bp.blogspot.com/-vKw-bO3EXxg/XH1ZPYBIEuI/AAAAAAAAAYU/Sn7X_741RGwL3gB3o0Eo1kc5eXgQbCahQCK4BGAYYCw/s1600/02-1.png)
+![Image not found, email me: informatica@coopavel.com.br](https://1.bp.blogspot.com/-vKw-bO3EXxg/XH1ZPYBIEuI/AAAAAAAAAYU/Sn7X_741RGwL3gB3o0Eo1kc5eXgQbCahQCK4BGAYYCw/s1600/02-1.png)
 Exibição do warning no trecho incorreto e na barra de rolagem
 
-![Infelizmente alguém tá tirando a minha imagem do ar. Me manda um email cobrando: informatica@coopavel.com.br](https://2.bp.blogspot.com/-GuGIpk2sYNI/XH1ZPU5lY4I/AAAAAAAAAYY/qUljsc6O_u4YhoculRlJ2SRr78MXrG0_wCK4BGAYYCw/s1600/07.png)
+![Image not found, email me: informatica@coopavel.com.br](https://2.bp.blogspot.com/-GuGIpk2sYNI/XH1ZPU5lY4I/AAAAAAAAAYY/qUljsc6O_u4YhoculRlJ2SRr78MXrG0_wCK4BGAYYCw/s1600/07.png)
 Exibição da mensagem de erro ao deixar o cursor sobre o trecho marcado
 
-![Infelizmente alguém tá tirando a minha imagem do ar. Me manda um email cobrando: informatica@coopavel.com.br](https://3.bp.blogspot.com/-NKtyqrEWqGc/XH1ZPcUS-VI/AAAAAAAAAYc/nf9l0RyEyLsAzL_LZq87u5noaA-i0SGtgCK4BGAYYCw/s1600/08.png)
+![Image not found, email me: informatica@coopavel.com.br](https://3.bp.blogspot.com/-NKtyqrEWqGc/XH1ZPcUS-VI/AAAAAAAAAYc/nf9l0RyEyLsAzL_LZq87u5noaA-i0SGtgCK4BGAYYCw/s1600/08.png)
 Exibição de possibilidade de correção
 
 # Regras
