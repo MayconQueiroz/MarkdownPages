@@ -1,4 +1,4 @@
-Analisador de sintaxe para C#
+O LintSpy é uma extensão desenvolvida para o Visual Studio que visa facilitar o trabalho em equipe, sugerindo a adoção das melhores práticas de nomenclatura e documentação em tempo real, visando assim um código C# limpo, claro e objetivo. 
 
 # Notas de versão
 
@@ -14,9 +14,10 @@ Visual Studio 2017 ou mais recente
 
 # Resumo
 
-Desenvolvida pela equipe de TI da Coopavel (Cooperativa Agroindustrial de Cascavel) para auxiliar programadores, o LintSpy é uma extensão para Visual Studio que verifica em tempo real padrões de nomenclaturas e documentação de código em C#. 
 
-Sempre que algo fora do padrão é localizado pela extensão, o LintSpy sublinha o código, mostra na barra de rolagem a localização da incoerência e fornece exemplos de como corrigir o mesmo. Também é possível visualizar todos os erros encontrados através da lista de warnings do Visual Studio.
+O LintSpy visa padronizar nomenclatura e documentação de códigos no momento da programação, sublinhando códigos em desacordo, exibindo na barra de rolagem a localização do ocorrido e sugerindo adoção das melhores práticas de nomenclatura e documentação. Também é possível visualizar todos as ocorrências através da lista de warnings do Visual Studio.
+
+Desenvolvida pela equipe de TI da Coopavel (Cooperativa Agroindustrial de Cascavel/PR)
 
 Veja abaixo um exemplo do LintSpy em funcionamento:
 
