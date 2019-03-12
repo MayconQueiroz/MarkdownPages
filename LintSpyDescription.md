@@ -17,13 +17,14 @@ Desenvolvida pela equipe de TI da Coopavel (Cooperativa Agroindustrial de Cascav
 
 Veja abaixo um exemplo do LintSpy em funcionamento:
 
-![Image not found, email me: informatica@coopavel.com.br](https://1.bp.blogspot.com/-vKw-bO3EXxg/XH1ZPYBIEuI/AAAAAAAAAYU/Sn7X_741RGwL3gB3o0Eo1kc5eXgQbCahQCK4BGAYYCw/s1600/02-1.png)
+![Image not found, email me: informatica@coopavel.com.br](https://farm8.staticflickr.com/7906/33482662428_43d2fd3651_o.png)
+
 Exibição do warning no trecho incorreto e na barra de rolagem
 
-![Image not found, email me: informatica@coopavel.com.br](https://2.bp.blogspot.com/-GuGIpk2sYNI/XH1ZPU5lY4I/AAAAAAAAAYY/qUljsc6O_u4YhoculRlJ2SRr78MXrG0_wCK4BGAYYCw/s1600/07.png)
+![Image not found, email me: informatica@coopavel.com.br](https://farm8.staticflickr.com/7849/32416775557_df5dbf56be_o.png)
 Exibição da mensagem de erro ao deixar o cursor sobre o trecho marcado
 
-![Image not found, email me: informatica@coopavel.com.br](https://3.bp.blogspot.com/-NKtyqrEWqGc/XH1ZPcUS-VI/AAAAAAAAAYc/nf9l0RyEyLsAzL_LZq87u5noaA-i0SGtgCK4BGAYYCw/s1600/08.png)
+![Image not found, email me: informatica@coopavel.com.br](https://farm8.staticflickr.com/7832/40393392953_6e193c0da5_o.png)
 Exibição de possibilidade de correção
 
 # Regras
