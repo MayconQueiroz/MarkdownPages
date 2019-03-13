@@ -1,0 +1,89 @@
+18:12:20.221004 Sending trace output to log files: D:\BuildAgent\agent\_diag
+18:12:20.252254 VsoAgent.exe was run with the following command line:
+"D:\BuildAgent\agent\agent\vsoagent.exe"  /runningAsService 
+18:12:20.408503 SettingsFileHelper.Load - settings[AutoUpdate]=True
+18:12:20.408503 SettingsFileHelper.Load - settings[RootFolder]=D:\BuildAgent\agent
+18:12:20.408503 SettingsFileHelper.Load - settings[WorkFolder]=D:\BuildAgent\agent\_work
+18:12:20.408503 SettingsFileHelper.Load - settings[ServerUrl]=http://TFSServer:8080/tfs
+18:12:20.408503 SettingsFileHelper.Load - settings[AgentName]=BlaisePascal
+18:12:20.408503 SettingsFileHelper.Load - settings[PoolId]=2
+18:12:20.408503 SettingsFileHelper.Load - settings[PoolName]=Pool1
+18:12:20.408503 SettingsFileHelper.Load - settings[AgentId]=19
+18:12:20.408503 SettingsFileHelper.Load - settings[RunAsWindowsService]=True
+18:12:20.408503 SettingsFileHelper.Load - settings[WindowsServiceName]=vsoagent.TFSServer.BlaisePascal
+18:12:20.408503 SettingsFileHelper.Load - settings[WindowsServiceDisplayName]=VSO Agent (TFSServer.BlaisePascal)
+18:12:20.439753 BaseLogger.LogStatus(scope.JobId = 00000000-0000-0000-0000-000000000000, scope.TimelineRecordId = 00000000-0000-0000-0000-000000000000, record.Name = Agent)
+18:12:20.517877 BaseLogger.LogConsoleMessage(scope.JobId = 00000000-0000-0000-0000-000000000000, message = Authenticating to the server http://TFSServe:8080/tfs)
+18:12:20.596002 Exe location hash = c9a5d195feb9093613169002e7f1f0dd
+18:12:20.596002 Exe location hash = c78eb783e56c7e6332e9f85b9a79119f
+18:12:20.596002 Exe location hash = 9f6bc3f444d6f11a93e254603275dc11
+18:12:21.174123 ---------------------------------------------------------------------------
+18:12:21.220998 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.MissingMethodException: Method not found: 'Void Newtonsoft.Json.Serialization.DefaultContractResolver.set_IgnoreSerializableAttribute(Boolean)'.
+18:12:21.220998    at System.Net.Http.Formatting.JsonContractResolver..ctor(MediaTypeFormatter formatter)
+18:12:21.220998    at System.Net.Http.Formatting.BaseJsonMediaTypeFormatter..ctor()
+18:12:21.220998    at System.Net.Http.Formatting.JsonMediaTypeFormatter..ctor()
+18:12:21.220998    at Microsoft.VisualStudio.Services.WebApi.VssJsonMediaTypeFormatter..ctor(Boolean bypassSafeArrayWrapping)
+18:12:21.220998    at Microsoft.VisualStudio.Services.WebApi.VssHttpClientBase..ctor(Uri baseUrl, HttpMessageHandler pipeline, Boolean disposeHandler)
+18:12:21.220998    --- End of inner exception stack trace ---
+18:12:21.220998    at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+18:12:21.220998    at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+18:12:21.220998    at System.RuntimeType.CreateInstanceImpl(BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes, StackCrawlMark& stackMark)
+18:12:21.220998    at System.Activator.CreateInstance(Type type, BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes)
+18:12:21.220998    at System.Activator.CreateInstance(Type type, Object[] args)
+18:12:21.220998    at Microsoft.VisualStudio.Services.Client.VssConnection.<GetClientInstanceAsync>d__15.MoveNext()
+18:12:21.220998 --- End of stack trace from previous location where exception was thrown ---
+18:12:21.220998    at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+18:12:21.220998    at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+18:12:21.220998    at Microsoft.VisualStudio.Services.Client.VssConnection.<GetClientServiceImplAsync>d__13.MoveNext()
+18:12:21.220998 --- End of stack trace from previous location where exception was thrown ---
+18:12:21.220998    at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+18:12:21.220998    at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+18:12:21.220998    at Microsoft.VisualStudio.Services.Client.VssConnection.<GetClientAsync>d__10`1.MoveNext()
+18:12:21.220998 --- End of stack trace from previous location where exception was thrown ---
+18:12:21.220998    at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+18:12:21.220998    at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+18:12:21.220998    at Microsoft.VisualStudio.Services.Client.VssServerDataProvider.<ConnectAsync>d__39.MoveNext()
+18:12:21.220998 --- End of stack trace from previous location where exception was thrown ---
+18:12:21.220998    at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+18:12:21.220998    at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+18:12:21.220998    at Microsoft.TeamFoundation.DistributedTask.Agent.Common.ConnectionHelper.GetConnection(Uri serverUri, VssCredentials credentials)
+18:12:21.220998    at Microsoft.TeamFoundation.DistributedTask.Agent.Common.ConnectionHelper.GetConnection(String serverUrl)
+18:12:21.220998    at VsoAgent.Program.Main(String[] args)
+18:12:21.220998    at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+18:12:21.220998    at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+18:12:21.220998    at System.RuntimeType.CreateInstanceImpl(BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes, StackCrawlMark& stackMark)
+18:12:21.220998    at System.Activator.CreateInstance(Type type, BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes)
+18:12:21.220998    at System.Activator.CreateInstance(Type type, Object[] args)
+18:12:21.220998    at Microsoft.VisualStudio.Services.Client.VssConnection.<GetClientInstanceAsync>d__15.MoveNext()
+18:12:21.220998 --- End of stack trace from previous location where exception was thrown ---
+18:12:21.220998    at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+18:12:21.220998    at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+18:12:21.220998    at Microsoft.VisualStudio.Services.Client.VssConnection.<GetClientServiceImplAsync>d__13.MoveNext()
+18:12:21.220998 --- End of stack trace from previous location where exception was thrown ---
+18:12:21.220998    at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+18:12:21.220998    at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+18:12:21.220998    at Microsoft.VisualStudio.Services.Client.VssConnection.<GetClientAsync>d__10`1.MoveNext()
+18:12:21.220998 --- End of stack trace from previous location where exception was thrown ---
+18:12:21.220998    at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+18:12:21.220998    at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+18:12:21.220998    at Microsoft.VisualStudio.Services.Client.VssServerDataProvider.<ConnectAsync>d__39.MoveNext()
+18:12:21.220998 --- End of stack trace from previous location where exception was thrown ---
+18:12:21.220998    at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+18:12:21.220998    at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+18:12:21.220998    at Microsoft.TeamFoundation.DistributedTask.Agent.Common.ConnectionHelper.GetConnection(Uri serverUri, VssCredentials credentials)
+18:12:21.220998    at Microsoft.TeamFoundation.DistributedTask.Agent.Common.ConnectionHelper.GetConnection(String serverUrl)
+18:12:21.220998    at VsoAgent.Program.Main(String[] args)
+18:12:21.220998 ---------------------------------------------------------------------------
+18:12:21.220998 ---------------------------------------------------------------------------
+18:12:21.220998 System.MissingMethodException: Method not found: 'Void Newtonsoft.Json.Serialization.DefaultContractResolver.set_IgnoreSerializableAttribute(Boolean)'.
+18:12:21.220998    at System.Net.Http.Formatting.JsonContractResolver..ctor(MediaTypeFormatter formatter)
+18:12:21.220998    at System.Net.Http.Formatting.BaseJsonMediaTypeFormatter..ctor()
+18:12:21.220998    at System.Net.Http.Formatting.JsonMediaTypeFormatter..ctor()
+18:12:21.220998    at Microsoft.VisualStudio.Services.WebApi.VssJsonMediaTypeFormatter..ctor(Boolean bypassSafeArrayWrapping)
+18:12:21.220998    at Microsoft.VisualStudio.Services.WebApi.VssHttpClientBase..ctor(Uri baseUrl, HttpMessageHandler pipeline, Boolean disposeHandler)
+18:12:21.220998    at System.Net.Http.Formatting.JsonContractResolver..ctor(MediaTypeFormatter formatter)
+18:12:21.220998    at System.Net.Http.Formatting.BaseJsonMediaTypeFormatter..ctor()
+18:12:21.220998    at System.Net.Http.Formatting.JsonMediaTypeFormatter..ctor()
+18:12:21.220998    at Microsoft.VisualStudio.Services.WebApi.VssJsonMediaTypeFormatter..ctor(Boolean bypassSafeArrayWrapping)
+18:12:21.220998    at Microsoft.VisualStudio.Services.WebApi.VssHttpClientBase..ctor(Uri baseUrl, HttpMessageHandler pipeline, Boolean disposeHandler)
+18:12:21.220998 ---------------------------------------------------------------------------
